@@ -42,7 +42,7 @@ byeSpeaker.speak = function (){
 
 var byeSpeaker = {};
 byeSpeaker.name = "Coursera 9";
-var speakWord = "Good Bye";
+byeSpeaker.speakWord = "Good Bye ";
 
 byeSpeaker.speak = function (){
     console.log(speakWord + " " + byeSpeaker.name);

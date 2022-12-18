@@ -41,10 +41,9 @@ helloSpeaker.speak = function (){
 
 (function (window) { 
 
-    var speakWord = "Hello";
-
     var helloSpeaker = {};
     helloSpeaker.name = "Coursera 5";
+    helloSpeaker.speakWord = "Hello ";
     helloSpeaker.speak = function (){
         console.log(speakWord + " " + helloSpeaker.name);
     }(); 

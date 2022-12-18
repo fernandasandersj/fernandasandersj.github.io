@@ -50,9 +50,8 @@ var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula"
 
 for ( var i= 0 ; i < names.length ; i++ ) {
 
-  var nombres = names[i];
-  console.log("Hello " + nombres); 
-  console.log("Good Bye " + nombres); 
+  //console.log("Hello " + nombres); 
+  //console.log("Good Bye " + nombres); 
 
 
   // STEP 11:
@@ -64,9 +63,9 @@ for ( var i= 0 ; i < names.length ; i++ ) {
   // Look up these methods on Mozilla Developer Network web site if needed.
 
 
-    var firstletter = nombres.charAt(0);
+    var firstletter = names[i].charAt(0);
     var firstletterLower = firstletter.toLowerCase();
-    console.log(firstletterLower);
+    //console.log(firstletterLower);
 
 
   // STEP 12:
@@ -76,10 +75,10 @@ for ( var i= 0 ; i < names.length ; i++ ) {
   // name in the loop.
 
   if (firstletterLower == "j") {
-  
+    console.log( window.byeSpeaker.speakWord + names[i]);
  } else {
     //helloSpeaker.xxxx
-    console.log("hello");
+    console.log(window.helloSpeaker.speakWord  + names[i]);
   }
 
 }; //END BUCLE FOR
