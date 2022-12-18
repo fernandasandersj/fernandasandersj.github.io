@@ -34,7 +34,7 @@ WARNING!!! WARNING!!!
 // See Lecture 52, part 2
 
 (function (names){
-    console.log(names);
+   // console.log(names);
 }) (["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"]);
 
 // (Note, Step 2 will be done in the SpeakHello.js file.)
