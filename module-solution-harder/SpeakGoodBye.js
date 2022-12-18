@@ -6,7 +6,7 @@
 var speakWord = "Good Bye";
 
 (function (name){
-    console.log(speakWord + " " + name);
+   // console.log(speakWord + " " + name);
 })(" Coursera 6 ");
 
 // STEP 7: Create an object, called 'byeSpeaker' to which you will attach
@@ -16,7 +16,7 @@ var speakWord = "Good Bye";
 var byeSpeaker = {}; 
 byeSpeaker.name= "Coursera 7 ";
 byeSpeaker.sayHello = function () {
-    console.log("Good Bye " + byeSpeaker.name);
+  //  console.log("Good Bye " + byeSpeaker.name);
 }
 
 byeSpeaker.sayHello();
@@ -31,13 +31,13 @@ var speakWord = "Good Bye";
 var byeSpeaker = {};
 byeSpeaker.name = "Coursera 8";
 byeSpeaker.speak = function (){
-    console.log(speakWord + " " + byeSpeaker.name);
+  //  console.log(speakWord + " " + byeSpeaker.name);
 } ();
 
 
 // STEP 9: Expose the 'byeSpeaker' object to the global scope. Name it
 // 'byeSpeaker' on the global scope as well.
-// xxxx.xxxx = byeSpeaker;
+
 
 (function (window){
 
@@ -46,7 +46,7 @@ byeSpeaker.name = "Coursera 9";
 byeSpeaker.speakWord = "Good Bye ";
 
 byeSpeaker.speak = function (){
-    console.log(speakWord + " " + byeSpeaker.name);
+   // console.log(speakWord + " " + byeSpeaker.name);
 } ();
 
 window.byeSpeaker = byeSpeaker;

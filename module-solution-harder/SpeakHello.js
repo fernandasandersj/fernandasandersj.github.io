@@ -4,7 +4,7 @@
 var speakWord = "Hello";
 
 (function (name){
-    console.log(speakWord + " " + name);
+  //  console.log(speakWord + " " + name);
 })("Coursera 2");
 
 // STEP 3: Create an object, called 'helloSpeaker' to which you will attach
@@ -14,7 +14,7 @@ var speakWord = "Hello";
 var helloSpeaker = {}; 
 helloSpeaker.name= "Coursera 3 ";
 helloSpeaker.sayHello = function () {
-    console.log("Hello " + helloSpeaker.name);
+   // console.log("Hello " + helloSpeaker.name);
 }
 
 helloSpeaker.sayHello();
@@ -30,7 +30,7 @@ var speakWord = "Hello";
 var helloSpeaker = {};
 helloSpeaker.name = "Coursera 4";
 helloSpeaker.speak = function (){
-    console.log(speakWord + " " + helloSpeaker.name);
+  //  console.log(speakWord + " " + helloSpeaker.name);
 } ();
 
 
@@ -45,7 +45,7 @@ helloSpeaker.speak = function (){
     helloSpeaker.name = "Coursera 5";
     helloSpeaker.speakWord = "Hello ";
     helloSpeaker.speak = function (){
-        console.log(speakWord + " " + helloSpeaker.name);
+   //     console.log(speakWord + " " + helloSpeaker.name);
     }(); 
 
     window.helloSpeaker = helloSpeaker;
